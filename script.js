@@ -48,7 +48,7 @@ function addItem() {
 
     // create a list element and specify its class for css file
     const newItem = document.createElement('li');
-    newItem.classList.add("item");
+    // newItem.classList.add("item");
     newItem.innerText = text;
     newItem.onclick = checkItem;
 
